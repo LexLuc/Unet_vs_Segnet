@@ -21,22 +21,23 @@ https://www.dropbox.com/sh/2untz9nygcoly9f/AAA7rCpNbigqm2bLkDcL3q_ya?dl=0
 ### Environment
 After the preparation of required data, the next step is to provide an environment to run the code.
 
-		python=3.6
-		matplotlib=2.0.2
-		numpy=1.12.1
-		keras=2.1.6
-		scikit-learn=0.19.1
-		scikit-image=0.13.1
-		tensorflow=1.5.0
+	python=3.6
+	matplotlib=2.0.2
+	numpy=1.12.1
+	keras=2.1.6
+	scikit-learn=0.19.1
+	scikit-image=0.13.1
+	tensorflow=1.5.0
 		
 ### Running Code
 If both data and environment are ready, then it is time to run and test the code.
 Note: Because the training process requires quite long time, you would better run it on a powerful GPU machine.
 
 Command line:
+```
 		$python segnet.py
 		$python unet.py
-
+```
 ### Inspecting Result
 When we have finished the pipleline (training data - predicting data - validate performance), the result should be found
 in directory:
