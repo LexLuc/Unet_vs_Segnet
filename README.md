@@ -35,6 +35,7 @@ Note: Because the training process requires quite long time, you would better ru
 
 Command line:
 `$python segnet.py`
+
 `$python unet.py`
 
 ### Inspecting Result
