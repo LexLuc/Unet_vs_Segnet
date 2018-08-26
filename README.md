@@ -34,6 +34,7 @@ If both data and environment are ready, then it is time to run and test the code
 Note: Because the training process requires quite long time, you would better run it on a powerful GPU machine.
 
 Command line:
+
 `$python segnet.py`
 
 `$python unet.py`
